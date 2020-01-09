@@ -84,7 +84,17 @@ After adding this config option, you can run the test without error inside Intel
 
 If you want, you can also run the tests from the command line:
 
+```
+~/g/i/c/js (master|✔) $ npm run test
 
+> js@1.0.0 test /Users/philipjohnson/github/ics-software-engineering/cci-playground/js
+> mocha -r esm *.test.js
+  isUnique
+    ✓ should return true for a unique string
+    ✓ should return false for a non-unique string
+  2 passing (9ms)
+~/g/i/c/js (master|✔) $
+```
 
 
 
