@@ -44,7 +44,7 @@ found 0 vulnerabilities
 
 Set up a project that points to the js/ directory in IntelliJ, then open the IsUnique.js file. It should look like this:
 
-
+<img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/js-intellij-isunique.js.png">
 
 
 
