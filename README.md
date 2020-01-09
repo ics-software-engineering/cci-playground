@@ -56,7 +56,42 @@ It's always a good idea to verify that ESLint is running on your project. To do 
 You can also run ESLint from the command line:
 
 ```
+~/g/i/c/js (master|✔) $ npm run lint
+
+> js@1.0.0 lint /Users/philipjohnson/github/ics-software-engineering/cci-playground/js
+> eslint --quiet --ext .js .
+
+~/g/i/c/js (master|✔) $
 ```
+
+#### 5. Run the tests
+
+A nice way to develop your solutions is to write a set of tests to check that your code performs as expected. For example, here is a file containing a couple of simple tests of my IsUnique solution:
+
+<img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/js-intellij-isunique-test-code.png">
+
+If you click on the double left arrow on line five, you'll get a menu that allows you to "Run IsUnique.test.js". Unfortunately, the first time you do so, you'll get an error like this:
+
+<img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/js-intellij-mocha-error.png">
+
+The fix is to select Run > Edit Configurations..., then add '-r esm' as a Node option:
+
+<img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/js-intellij-mocha-run-config.png">
+
+After adding this config option, you can run the test without error inside IntelliJ:
+
+<img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/js-intellij-mocha-success.png">
+
+If you want, you can also run the tests from the command line:
+
+
+
+
+
+
+
+
+
 
 
 
