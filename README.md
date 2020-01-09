@@ -8,6 +8,8 @@ Assuming that there will be similar non-trivial setups for other languages, I th
 1.1. Is Unique: Implement an algorithm to determine if a string has all unique characters. What if you cannot use additional data structures? (Hints: #44, #117, #132)
 </blockquote>
 
+At the moment, this repo only has boilerplate for Javascript.  I hope to include support for more languages soon. 
+
 ## Installation
 
 To get started, [fork this repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) into your own GitHub account.  Forking is good for two reasons:
