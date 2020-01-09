@@ -74,7 +74,7 @@ If you click on the double left arrow on line five, you'll get a menu that allow
 
 <img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/js-intellij-mocha-error.png">
 
-The fix is to select Run > Edit Configurations..., then add '-r esm' as a Node option:
+This error occurs because Node does not understand ES7 constructs like import.  The fix is to select Run > Edit Configurations..., then add '-r esm' as a Node option:
 
 <img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/js-intellij-mocha-run-config.png">
 
