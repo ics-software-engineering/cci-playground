@@ -46,7 +46,19 @@ Set up a project that points to the js/ directory in IntelliJ, then open the IsU
 
 <img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/js-intellij-isunique.js.png">
 
-Note the little green checkmark in the upper right corner? That indicates that
+
+#### 4. Verify ESLint
+
+It's always a good idea to verify that ESLint is running on your project. To do so, just add a couple of extra blank lines to the end of the file. IntelliJ should immediately tell you of the coding standard violation:
+
+<img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/js-intellij-isunique-eslint.png">
+
+You can also run ESLint from the command line:
+
+```
+```
+
+
 
 
 

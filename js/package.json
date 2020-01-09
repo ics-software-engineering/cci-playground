@@ -1,11 +1,13 @@
 {
   "name": "js",
+  "private": true,
   "version": "1.0.0",
   "description": "Sample code for cracking the coding interview",
   "repository": "https://github.com/ics-software-engineering/cci-playground",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -r esm *.test.js"
+    "test": "mocha -r esm *.test.js",
+    "lint": "eslint --quiet --ext .js ."
   },
   "keywords": [],
   "author": "Philip Johnson",

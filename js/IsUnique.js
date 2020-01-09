@@ -12,5 +12,3 @@ export function isUnique(str) {
   }
   return true;
 }
-
-
