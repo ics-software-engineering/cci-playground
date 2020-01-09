@@ -46,6 +46,8 @@ Set up a project that points to the js/ directory in IntelliJ, then open the IsU
 
 <img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/js-intellij-isunique.js.png">
 
+Note the little green checkmark in the upper right corner? That indicates that
+
 
 
 

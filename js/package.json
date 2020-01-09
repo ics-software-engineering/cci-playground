@@ -1,0 +1,30 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "Sample code for cracking the coding interview",
+  "repository": "https://github.com/ics-software-engineering/cci-playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r esm *.test.js"
+  },
+  "keywords": [],
+  "author": "Philip Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "chai": "^4.2.0",
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-meteor": "^5.1.0",
+    "eslint-plugin-mocha": "^6.2.1",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-utils": ">=1.4.1",
+    "mocha": "^6.2.2"
+  }
+}
