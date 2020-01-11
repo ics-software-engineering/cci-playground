@@ -34,7 +34,7 @@ Pick one (or more!) and follow the instructions to run the code for solving IsUn
   
 ## Off to the races
 
-Now that you have an example of writing, running, and testing the first problem, you might want to try the second one:
+Now that you have locally running code for the first problem in the language of your choice, you might want to try the second one:
 
 <blockquote>
 1.2. Check Permutation: Given two strings, write a method to decide if one is the permutation of other. (Hints: #1, #84, #122, #131)
