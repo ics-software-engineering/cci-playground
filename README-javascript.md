@@ -74,17 +74,7 @@ If you want, you can also run the tests from the command line:
 ~/g/i/c/js (master|✔) $
 ```
 
-## 6. Start developing your own solutions
 
-Now that you have an example of writing, running, and testing the first problem, you might want to try the second one:
-
-<blockquote>
-1.2. Check Permutation: Given two strings, write a method to decide if one is the permutation of other.
-</blockquote>
-
-You'll want to create a file called CheckPermutation.js with your solution, and a file called CheckPermutation.test.js with your test code.
-
-Have fun!
 
 
 
