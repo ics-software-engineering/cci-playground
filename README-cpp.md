@@ -2,15 +2,17 @@
 
 The cpp/ subdirectory supports C++ solutions using a custom testing framework (for now). 
 
-## 1. Install g++ and cmake
+## 1. Install a C++ compiler and cmake
 
-You must have installed g++ and cmake installed on your computer. 
+You must have installed a C++ compiler (g++, clang++) and [cmake](https://cmake.org/) on your computer. 
 
 ## 3. Create a CLion (or Eclipse) cmake project
 
 Set up a cmake project that points to the cpp/ directory in tour IDE ("New CMake project from Sources" on the "Welcome to CLion" initial popup).  Then open the src/IsUnique.cpp file. It should look like this using CLion:
 
 <img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/cpp-clion-isunique.cpp.png">
+
+CLion will load compiler-specific style toolds (e.g., Clang-Tidy)
 
 ## 4. Build the project
 

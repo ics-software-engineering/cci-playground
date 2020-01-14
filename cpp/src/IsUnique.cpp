@@ -11,16 +11,16 @@
  *
  * @return true/false
  */
-bool IsUnique::isUnique(std::string s) {
+bool IsUnique::isUnique(std::string &s) {
 
     // Bit field to keep track of previously seen characters 
     unsigned long bitfield[4] = {0,0,0,0};
 
     for (auto const &c : s)  {
-        if (bitfield[c/32] & (1 << (c % 32)))  {
+        if (bitfield[c/32] & (1lu << (c % 32u)))  {
             return false;
         } else {
-            bitfield[c/32] |= (1 << (c % 32));
+            bitfield[c/32] |= (1lu << (c % 32u));
         }      
     }
 

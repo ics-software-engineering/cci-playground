@@ -4,5 +4,5 @@
 class IsUnique {
 
     public:
-        static bool isUnique(std::string s);
+        static bool isUnique(std::string &s);
 };

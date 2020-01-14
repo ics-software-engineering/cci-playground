@@ -20,8 +20,10 @@ void TestIsUnique::runAllTests() {
  * @return true if test passed, false otherwise
  */
 bool TestIsUnique::runTestUniqueString() {
-    bool passed = IsUnique::isUnique("abcdefghi");
-    std::cerr << "\t" << (passed ? "✓" : "x") << " should return true for a unique string\n";
+    std::string s = "abcdefghi";
+    bool passed = IsUnique::isUnique(s);
+    std::cerr << "\t" << (passed ? "✓" : "x") <<
+        " should return true for a unique string\n";
     return passed;
 }
 
@@ -30,8 +32,10 @@ bool TestIsUnique::runTestUniqueString() {
  * @return true if test passed, false otherwise
  */
 bool TestIsUnique::runTestNonUniqueString() {
-    bool passed = not IsUnique::isUnique("abcdefghic");
-    std::cerr << "\t" << (passed ? "✓" : "x") << " should return false for a non-unique string\n";
+    std::string s = "abcdefghic";
+    bool passed = not IsUnique::isUnique(s);
+    std::cerr << "\t" << (passed ? "✓" : "x") <<
+        " should return false for a non-unique string\n";
     return passed;
 }
 
