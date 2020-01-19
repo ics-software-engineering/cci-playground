@@ -92,5 +92,15 @@ Download the [ICS-SE checkstyle configuration file](http://courses.ics.hawaii.ed
 
 ## 6. Build and run the Java code
 
+To build the project select **Build | Build Project**. This will compile all the Java code.
+ 
+<img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/java-build-project.png">
+ 
+Then you can run the tests by right clicking on the java module and selecting **Run All Tests**. 
 
+<img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/java-run-all-tests.png">
+
+<img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/java-test-results.png">
+
+Or you can right click on a Java file and choose **Run**.
 
