@@ -8,7 +8,7 @@ You must have python installed on your computer. Most operating systems come wit
 
 ## 2. Create a PyCharm Project
 
-Set up a project that points to the py/ directory in your IDE ("File --> New Project"). Then open the IsUnique.py file. It should look like this in PyCharm:
+Set up a project that points to the py/ directory in your IDE (File --> New Project). Then open the IsUnique.py file. It should look like this in PyCharm:
 
 <img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/py-pycharm-isunique.py.png">
 
@@ -18,7 +18,6 @@ A nice way to develop your solutions is to write a set of tests to check that yo
 \'test_IsUnique\'". 
 
 ```
-/usr/bin/python3.6 /home/pjsadows/local/cci-playground/py/test_IsUnique.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.000s
