@@ -1,3 +1,5 @@
+package cci;
+
 import java.util.Hashtable;
 
 /**
@@ -15,7 +17,7 @@ public class IsUnique {
    * @return true if there are no duplicate characters, false otherwise.
    */
   public static boolean isUnique(String str) {
-    Hashtable<Character, Boolean> charTable = new Hashtable<Character, Boolean>();
+    Hashtable<Character, Boolean> charTable = new Hashtable<>();
     for (int i = 0; i < str.length(); i++) {
       if (charTable.get(str.charAt(i)) != null) {
         return false;

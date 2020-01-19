@@ -1,1 +1,2 @@
-production
+bin
+*.class
