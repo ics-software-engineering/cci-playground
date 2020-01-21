@@ -6,19 +6,11 @@ The java/ subdirectory supports Java solutions using the JUnit 4 testing framewo
 
 You must have the [Java JDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html) installed, 1.8 or newer.
 
-## 2. In IntelliJ IDEA create a new Module from existing sources
+## 2. Create an IntelliJ IDEA Java project.
 
-Select **File | New | Module from Existing Sources...**
+Create a new IntelliJ IDEA project, selecting the java/ directory as the root folder for the project. You probably want to rename the project from "java" to something like "cci-playground-java":
 
-<img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/java-new-module-existing-source.png">
 
-Select "Create module from existing sources". Press **Next**.
-
-<img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/java-create-module-from-existing-sources.png">
-
-Choose the cci-playground/java/ directory. Ensure that IDEA detects the src/ directory.
-
-<img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/java-module-source-directory.png">
 
 Press **Next**.
 
