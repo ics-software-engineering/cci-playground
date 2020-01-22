@@ -42,7 +42,9 @@ After adding this config option, you can run the test without error inside Intel
 
 <img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/js-intellij-mocha-success.png">
 
-If you want, you can also run the tests from the command line:
+## 5. Everything from the command-line?
+
+Of course you can do everything from the command line:
 
 ```
 ~/g/i/c/js (master|✔) $ npm run test
