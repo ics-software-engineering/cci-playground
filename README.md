@@ -25,10 +25,12 @@ To get started, [fork this repo](https://help.github.com/en/github/getting-start
 
 ## Languages
 
-The following pages provide documentation for each language currently supported in this repo:
+The following pages provide documentation for the languages supported in this repo:
 
   * [Javascript](README-javascript.md) 
   * [C++](README-cpp.md) 
+  * [Java](README-java.md)
+  * [Python](README-python.md)
   
 Pick one (or more!) and follow the instructions to run the code for solving IsUnique in the language(s) of your choice on your laptop.
 
@@ -47,3 +49,5 @@ Have fun!
 Thanks to:
  
   * [Henri Casanova](https://github.com/henricasanova) for adding C++ support.
+  * [Cam Moore](https://github.com/cammoore) for adding Java support.
+  * [Peter Sadowski](https://github.com/peterjsadowski) for adding Python support.
