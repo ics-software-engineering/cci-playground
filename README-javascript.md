@@ -24,25 +24,7 @@ Set up a project that points to the js/ directory in IntelliJ, then open the IsU
 
 <img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/js-intellij-isunique.js.png">
 
-
-## 4. Verify ESLint
-
-It's always a good idea to verify that ESLint is running on your project. To do so, just add a couple of extra blank lines to the end of the file. IntelliJ should immediately tell you of the coding standard violation:
-
-<img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/js-intellij-isunique-eslint.png">
-
-You can also run ESLint from the command line:
-
-```
-~/g/i/c/js (master|✔) $ npm run lint
-
-> js@1.0.0 lint /Users/philipjohnson/github/ics-software-engineering/cci-playground/js
-> eslint --quiet --ext .js .
-
-~/g/i/c/js (master|✔) $
-```
-
-## 5. Run the tests
+## 4. Run the tests
 
 A nice way to develop your solutions is to write a set of tests to check that your code performs as expected. For example, here is a file containing a couple of simple tests of my IsUnique solution:
 
