@@ -8,7 +8,11 @@
   (map #(% s) fns))
 
 (def test-all
-  "Returns a new function that closes around the functions being tested."
+  "
+  Returns a new function that closes around the functions being tested.
+
+  The function that is returned has the form (fn [s]) -> bool.
+  "
   (partial map-res [is-unique? is-unique-no-ds?]))
 
 (defn all-true?
@@ -40,5 +44,5 @@
   (testing "none unique"
     (is (all-false? (test-all "FFFFFFFF")))))
 
-
+(clj-tests)
 
