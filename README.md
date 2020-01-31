@@ -27,6 +27,7 @@ To get started, [fork this repo](https://help.github.com/en/github/getting-start
 
 The following pages provide documentation for the languages supported in this repo:
 
+  * [Clojure](README-clojure.md)
   * [C++](README-cpp.md) 
   * [Java](README-java.md)
   * [Javascript](README-javascript.md) 
@@ -53,3 +54,4 @@ Thanks to:
   * [Cam Moore](https://github.com/cammoore) for adding Java support.
   * [Peter Sadowski](https://github.com/peterjsadowski) for adding Python support.
   * [Mahdi Belcaid](https://github.com/mahdi-b) and [Anthony Christe](https://github.com/anthonyjchriste) for adding Rust support.
+  * [Anthony Christe](https://github.com/anthonyjchriste) for add Clojure support.
