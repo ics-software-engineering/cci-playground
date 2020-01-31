@@ -1,10 +1,6 @@
 [package]
 name = "unique"
-version = "1.0.1"
-authors=["Mahdi <mahdi@hawaii.edu>"]
+version = "1.0.2"
+authors=["Mahdi <mahdi@hawaii.edu>, Anthony J. Christe <anthony.christe@gmail.com>"]
 
 [dependencies]
-
-[[bin]]
-name="mybin"
-path="main.rs"
