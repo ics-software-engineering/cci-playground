@@ -32,16 +32,13 @@ A nice way to develop your solutions is to write a set of tests to check that yo
 
 You can run the test by opening a Terminal window within Clion and typing:
 
-
 ```
 cargo test
 ```
 
-You IntelliJ or CLion window will look like the one below.
+Your IntelliJ or CLion window will look like the one below.
 
 <img src="../master/images/rust-clion-isunique-test-terminal.png">
-
-
 
 ## 6. Everything from the command-line?
 
