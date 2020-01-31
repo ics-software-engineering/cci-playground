@@ -64,7 +64,7 @@ For more details, see: https://cursive-ide.com/userguide/repl.html
 
 ## 5. Running the tests
 
-Clojure unit tests can be ran either from the IDE or from the terminal.
+Clojure unit tests can be ran either from the IDE or from the terminal. I personally believe that running the tests from the terminal provide more useful feedback. 
 
 #### Running tests from the IDE
 
