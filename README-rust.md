@@ -12,13 +12,13 @@ Rust is supported in IntelliJ and CLion via the [IntelliJ Rust plugin](https://p
 
 ## 3. Open the Rust project using IntelliJ or CLion
 
-3.1 If you configured the (JetBrain Toolbox)[https://www.jetbrains.com/toolbox-app/] command line launchers, start your preferred IDE from the command line while providing the rust directory as an argument. For example
+If you configured the (JetBrain Toolbox)[https://www.jetbrains.com/toolbox-app/] command line launchers, start your preferred IDE from the command line while providing the rust directory as an argument. For example
 
 ```
 ~/launcher/clion rust/
 ```
 
-where `~/launchers/clion` is the relative path of the clion launcher on my personal computer. Alternatively, open the Rust project by selecting File, then Open and by select the rust folder.
+where `~/launchers/clion` is the relative path of the clion launcher on my personal computer. Alternatively, open the Rust project by selecting `File` from the main menu, then `Open`. Navigate to and select the rust folder.
 
 ## 4. Running the project
 
@@ -28,28 +28,20 @@ Select Run from the main menu, then run
 
 A nice way to develop your solutions is to write a set of tests to check that your code performs as expected. In the rust/test directory, you will find test code. For example, here is a file containing simple tests of my is_unique solution:
 
-<img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/js-intellij-isunique-test-code.png">
+<img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/rust-clion-isunique-test-code.png">
 
 You can run the test by opening a Terminal window within Clion and typing:
+
 
 ```
 cargo test
 ```
-The following output will be displayed:
 
-```
-running 7 tests
-test empty ... ok
-test basic_unique ... ok
-test basic_not_unique ... ok
-test mixedcase_not_unique ... ok
-test mixedcase_unique ... ok
-test utf_not_unique ... ok
-test utf_unique ... ok
+You IntelliJ or CLion window will look like the one below.
 
-test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
-...
-```
+<img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/rust-clion-isunique-test-terminal.png">
+
+
 
 ## 6. Everything from the command-line?
 
