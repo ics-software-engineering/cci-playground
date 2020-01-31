@@ -1,0 +1,10 @@
+[package]
+name = "unique"
+version = "1.0.1"
+authors=["Mahdi <mahdi@hawaii.edu>"]
+
+[dependencies]
+
+[[bin]]
+name="mybin"
+path="main.rs"
