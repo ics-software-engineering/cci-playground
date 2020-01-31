@@ -55,17 +55,21 @@ Select Run from the main menu, then run
 
 ## 6. Run the tests
 
-A nice way to develop your solutions is to write a set of tests to check that your code performs as expected. In the rust/test directory, you will find test code. For example, here is a file containing simple tests of my is_unique solution:
+A nice way to develop your solutions is to write a set of tests to check that your code performs as expected. Unit tests are provided at the bottom of the `lib.rs` module. For example, here is a file containing simple tests of my is_unique solution:
 
 <img src="../master/images/rust-clion-isunique-test-code.png">
 
-You can run the test by opening a Terminal window within Clion and typing:
+There are two ways to run the unit tests. You can either click the green play button beside the tests or individual tests, or you can run the test by opening a Terminal window within Clion and typing:
 
 ```
 cargo test
 ```
 
-Your IntelliJ or CLion window will look like the one below.
+If you run the tests from the IDE, your IDE will look like the following:
+
+<img src="../master/images/rust-clion-isunique-test-ide.png">
+
+If you run the tests from the terminal, the results should like the following:
 
 <img src="../master/images/rust-clion-isunique-test-terminal.png">
 
