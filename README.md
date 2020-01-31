@@ -52,4 +52,4 @@ Thanks to:
   * [Henri Casanova](https://github.com/henricasanova) for adding C++ support.
   * [Cam Moore](https://github.com/cammoore) for adding Java support.
   * [Peter Sadowski](https://github.com/peterjsadowski) for adding Python support.
-  * [Mahdi Belcaid](https://github.com/mahdi-b) for adding Rust support.
+  * [Mahdi Belcaid](https://github.com/mahdi-b) and [Anthony Christe](https://github.com/anthonyjchriste) for adding Rust support.
