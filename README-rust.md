@@ -81,6 +81,8 @@ Of course, you can do everything from the command line:
 % cd rust
 % # to run the binary use
 % cargo run
+% # to perform linting use
+% cargo check
 % # to run the tests use
 % cargo test
 ```     
