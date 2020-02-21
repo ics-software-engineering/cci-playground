@@ -33,6 +33,7 @@ The following pages provide documentation for the languages supported in this re
   * [Javascript](README-javascript.md)
   * [Python](README-python.md)
   * [Rust](README-rust.md)
+  * [Typescript](README-typescript.md)
 
 Pick one (or more!) and follow the instructions to run the code for solving IsUnique in the language(s) of your choice on your laptop.
 
