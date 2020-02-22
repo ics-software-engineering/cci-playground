@@ -61,6 +61,18 @@ Of course you can do everything from the command line:
 ~/g/i/c/ts (master|✔) $
 ```
 
+## 6. Fun with Typescript
+
+Typescript is nice because you get, well, types!  For example, IntelliJ can now autocomplete a function and tell you the types of parameters and the result type:
+
+<img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/ts-intellij-ts-cool-1.png">
+
+But the real winner is the ability to tell you immediately when you violate type consistency:
+
+<img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/ts-intellij-ts-cool-2.png">
+
+
+
 
 
 
