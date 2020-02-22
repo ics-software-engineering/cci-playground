@@ -37,7 +37,7 @@ If you click on the double left arrow on line five, you'll get a menu that allow
 
 This error occurs because Node does not understand ES7 constructs like import.  The fix is to select Run > Edit Configurations..., then add '-r ts-node/register' as a Node option:
 
-<img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/ts-intellij-mocha-run-config.png">
+<img src="https://github.com/ics-software-engineering/cci-playground/raw/master/images/ts-intellij-mocha-config.png">
 
 After adding this config option, you can run the test without error inside IntelliJ:
 
