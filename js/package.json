@@ -17,16 +17,16 @@
     "lodash": "^4.17.15"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.2",
+    "babel-eslint": "^10.1.0",
     "chai": "^4.2.0",
     "eslint": "^6.0.1",
     "eslint-config-airbnb": "^17.1.1",
-    "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-meteor": "^5.1.0",
-    "eslint-plugin-mocha": "^6.2.1",
-    "eslint-plugin-react": "^7.14.2",
-    "eslint-utils": ">=1.4.1",
+    "eslint-plugin-mocha": "^6.3.0",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-utils": "^2.1.0",
     "mocha": "^7.2.0"
   }
 }
