@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "esm": "^3.2.25",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
